@@ -1,13 +1,13 @@
-(function() {
+(function() { //IIFE runs code when page loads.
   'use strict';
 
   // Define values for keycodes
-  var VK_ENTER      = 13;
-  var VK_SPACE      = 32;
-  var VK_LEFT       = 37;
-  var VK_UP         = 38;
-  var VK_RIGHT      = 39;
-  var VK_DOWN       = 40;
+  var VK_ENTER      = 13;  //enter keystroke
+  var VK_SPACE      = 32;  //spacerbar keystroke
+  var VK_LEFT       = 37;  //left
+  var VK_UP         = 38;  //up
+  var VK_RIGHT      = 39;  //right
+  var VK_DOWN       = 40;  //down
 
   // Helper function to convert NodeLists to Arrays
   function slice(nodes) {
